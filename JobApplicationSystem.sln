@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3A4B52E8-77CC-4190-838E-7CC130D05795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplicationSystem.Api", "src\JobApplicationSystem.Api\JobApplicationSystem.Api.csproj", "{F1EC5083-32DA-4C76-B4F4-EC490987D9F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplicationSystem.Domain", "src\JobApplicationSystem.Domain\JobApplicationSystem.Domain.csproj", "{E6A376E4-BC3A-446C-AC43-9E45DF855404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplicationSystem.Infrastructure", "src\JobApplicationSystem.Infrastructure\JobApplicationSystem.Infrastructure.csproj", "{6B8D86D2-D9F4-444A-A450-FD9434CF1D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplicationSystem.Application", "src\JobApplicationSystem.Application\JobApplicationSystem.Application.csproj", "{EFB4BCEF-DD36-4378-99C2-28AC8F3DEBC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7A8CF502-CF2A-4B5B-89A1-25F47A3C973C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplicationSystem.Application.UnitTests", "test\JobApplicationSystem.Application.UnitTests\JobApplicationSystem.Application.UnitTests.csproj", "{E7A13F41-EF37-483A-AD48-4BC73EF9A994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{163AB6D8-A90D-4C5D-8F9B-CC4B90D6E256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1EC5083-32DA-4C76-B4F4-EC490987D9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1EC5083-32DA-4C76-B4F4-EC490987D9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1EC5083-32DA-4C76-B4F4-EC490987D9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1EC5083-32DA-4C76-B4F4-EC490987D9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A376E4-BC3A-446C-AC43-9E45DF855404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A376E4-BC3A-446C-AC43-9E45DF855404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A376E4-BC3A-446C-AC43-9E45DF855404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A376E4-BC3A-446C-AC43-9E45DF855404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8D86D2-D9F4-444A-A450-FD9434CF1D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8D86D2-D9F4-444A-A450-FD9434CF1D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8D86D2-D9F4-444A-A450-FD9434CF1D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8D86D2-D9F4-444A-A450-FD9434CF1D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB4BCEF-DD36-4378-99C2-28AC8F3DEBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB4BCEF-DD36-4378-99C2-28AC8F3DEBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB4BCEF-DD36-4378-99C2-28AC8F3DEBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB4BCEF-DD36-4378-99C2-28AC8F3DEBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A13F41-EF37-483A-AD48-4BC73EF9A994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A13F41-EF37-483A-AD48-4BC73EF9A994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A13F41-EF37-483A-AD48-4BC73EF9A994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A13F41-EF37-483A-AD48-4BC73EF9A994}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1EC5083-32DA-4C76-B4F4-EC490987D9F2} = {3A4B52E8-77CC-4190-838E-7CC130D05795}
+		{EFB4BCEF-DD36-4378-99C2-28AC8F3DEBC3} = {3A4B52E8-77CC-4190-838E-7CC130D05795}
+		{E6A376E4-BC3A-446C-AC43-9E45DF855404} = {3A4B52E8-77CC-4190-838E-7CC130D05795}
+		{6B8D86D2-D9F4-444A-A450-FD9434CF1D58} = {3A4B52E8-77CC-4190-838E-7CC130D05795}
+		{E7A13F41-EF37-483A-AD48-4BC73EF9A994} = {7A8CF502-CF2A-4B5B-89A1-25F47A3C973C}
+	EndGlobalSection
+EndGlobal
